@@ -22,3 +22,5 @@ const ProductList = ({product, className, onAdd}) => {
         </div>
     )
 }
+
+export default ProductItem
