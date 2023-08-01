@@ -9,7 +9,7 @@ import Form from './Form/Form'
 // const tg = window.Telegram.WebApp
 
 function App() {
-  const {onToggleButton, tg} = useTelegram()
+  const {tg} = useTelegram()
 
   useEffect(() => {
     tg.ready()
